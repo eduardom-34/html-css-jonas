@@ -33,6 +33,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -191,7 +192,8 @@ a:active {
   height: auto;
 }
 
-nav a:link {
+nav a:link,
+nav a:visited {
   /* background-color: orangered;
   margin: 20px;
   padding: 20px;
@@ -201,6 +203,8 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
+
+  text-align: center;
 }
 
 nav a:link:last-child {
